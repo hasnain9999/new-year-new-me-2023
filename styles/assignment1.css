@@ -1,9 +1,7 @@
 * {
     margin: 0;
     padding: 0;
-    height: 100%;
-
-
+    font-family: sans-serif;
 }
 
 
@@ -19,27 +17,23 @@
 
 .banner-txt {
 
-    font-family: sans-serif;
     font-weight: 900;
     font-size: 47px;
     text-align: right;
-    position: relative;
-    top: 100px;
-    right: 160px;
     line-height: 76px;
+    padding-right: 160px;
+    padding-top: 100px;
 
 }
 
 .banner-para {
 
-    font-family: sans-serif;
     text-align: right;
     color: #444343;
     font-size: 14px;
-    position: absolute;
-    right: 160px;
-    top: 350px;
     line-height: 26px;
+    padding-right: 160px;
+    padding-top: 25px;
 
 }
 
@@ -60,4 +54,68 @@
     right: 60px;
     top: 490px;
 
+}
+
+/* About Myself */
+
+
+.about-me{
+
+    display: flex;
+    justify-content: center;
+
+}
+
+.person-pic {
+
+    padding-left: 188px;
+    padding-top: 100px;
+    padding-right: 75px;
+    height: 585px;
+    width: 460px;
+}
+
+
+.section-topic{
+    text-align: left;
+    padding-top: 280px;
+
+}
+
+.section-title {
+
+    font-weight: 700;
+    font-size: 35px;
+    line-height: 47px;
+    color: #151414;
+      
+}
+
+
+.font-design{
+
+    color: #444343;
+    font-size: 13px;
+
+}
+
+.section-desc{
+
+    padding-top: 24px;
+    padding-right: 110px;
+    color: #444343;
+    font-size: 13px;
+    line-height: 26px;
+
+}
+
+.pointers{
+
+    padding-top: 16px;
+    
+}
+
+.pointers > p{
+
+    margin-bottom: 8px;
 }
