@@ -1,16 +1,63 @@
-*{
+* {
     margin: 0;
     padding: 0;
+    height: 100%;
+
+
 }
 
 
-/* Header */
+/* banner style */
 
-
-.banner{
+.banner-img {
 
     background-image: url('../images/banner/banner1.png');
-    background-position: center;
-    margin: 0;
-    padding: 0;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    height: 600px;
+}
+
+.banner-txt {
+
+    font-family: sans-serif;
+    font-weight: 900;
+    font-size: 47px;
+    text-align: right;
+    position: relative;
+    top: 100px;
+    right: 160px;
+    line-height: 76px;
+
+}
+
+.banner-para {
+
+    font-family: sans-serif;
+    text-align: right;
+    color: #444343;
+    font-size: 14px;
+    position: absolute;
+    right: 160px;
+    top: 350px;
+    line-height: 26px;
+
+}
+
+/* button css */
+
+.contact-us {
+
+    height: 55px;
+    background-color: rgb(255, 115, 0);
+    margin-right: 100px;
+    color: #fff;
+    padding: 15px 20px;
+    font-weight: 600;
+    font-size: 20px;
+    border-radius: 2px;
+    border: 0;
+    position: absolute;
+    right: 60px;
+    top: 490px;
+
 }
