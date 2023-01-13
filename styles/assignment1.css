@@ -48,7 +48,7 @@
     padding: 15px 20px;
     font-weight: 600;
     font-size: 20px;
-    border-radius: 2px;
+    border-radius: 4px;
     border: 0;
     position: absolute;
     right: 60px;
@@ -129,7 +129,7 @@
 }
 
 
-/* Third section */
+/* Third section> My Plans */
 
 .my-plans {
 
@@ -158,14 +158,14 @@
     color: #737272;
 }
 
-.plan1, .plan2, .plan3{
+.plan1, .plan2, .plan3 {
 
-    padding-right: 130px;
+    padding-right: 96px;
 }
 
-.plan-img{
+.plan-img {
 
-    height: 65px ;
+    height: 65px;
     width: 65px;
 }
 
@@ -175,4 +175,53 @@
     display: flex;
     justify-content: center;
 
+}
+
+
+/* Fourth section> Contact */
+
+.contact {
+
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+    
+}
+
+
+.call-now{
+    
+    background-image: linear-gradient(to right, #008905 0%, rgba(51, 241, 34, 0) 100%), url('/images/watch.png');
+
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 250px;
+    width: 950px;
+    border-radius: 8px;
+    
+}
+
+.motto {
+
+    font-weight: 700;
+    font-size: 35px;
+    line-height: 47px;
+    color: #FFFFFF;
+    padding-top: 50px;
+    padding-left: 60px;
+    
+}
+
+.btn-call{
+
+    height: 55px;
+    background-color:#FFFFFF;
+    color: #008905;
+    padding: 15px 20px;
+    font-weight: 600;
+    font-size: 20px;
+    border-radius: 4px;
+    border: 0;
+    margin-left: 60px;
+    margin-top: 24px;
 }
