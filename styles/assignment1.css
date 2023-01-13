@@ -13,6 +13,7 @@
     background-repeat: no-repeat;
     background-size: 100% 100%;
     height: 600px;
+
 }
 
 .banner-txt {
@@ -39,11 +40,10 @@
 
 /* button css */
 
-.contact-us {
+.btn-contact {
 
     height: 55px;
     background-color: rgb(255, 115, 0);
-    margin-right: 100px;
     color: #fff;
     padding: 15px 20px;
     font-weight: 600;
@@ -53,6 +53,7 @@
     position: absolute;
     right: 60px;
     top: 490px;
+    margin-right: 100px;
 
 }
 
@@ -117,5 +118,12 @@
 
 .pointers > p{
 
-    margin-bottom: 8px;
+    margin-bottom: 9px;
+}
+
+
+.tickmark{
+
+    height: 11.5px;
+    width: 11.5px;
 }
