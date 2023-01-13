@@ -5,7 +5,7 @@
 }
 
 
-/* banner style */
+/* First section> banner style */
 
 .banner-img {
 
@@ -57,10 +57,10 @@
 
 }
 
-/* About Myself */
+/* Second section> About Myself */
 
 
-.about-me{
+.about-me {
 
     display: flex;
     justify-content: center;
@@ -77,7 +77,7 @@
 }
 
 
-.section-topic{
+.section-topic1 {
     text-align: left;
     padding-top: 280px;
 
@@ -89,18 +89,18 @@
     font-size: 35px;
     line-height: 47px;
     color: #151414;
-      
+
 }
 
 
-.font-design{
+.font-design {
 
     color: #444343;
     font-size: 13px;
 
 }
 
-.section-desc{
+.section-desc {
 
     padding-top: 24px;
     padding-right: 110px;
@@ -110,20 +110,69 @@
 
 }
 
-.pointers{
+.pointers {
 
     padding-top: 16px;
-    
+
 }
 
-.pointers > p{
+.pointers>p {
 
     margin-bottom: 9px;
 }
 
 
-.tickmark{
+.tickmark {
 
     height: 11.5px;
     width: 11.5px;
+}
+
+
+/* Third section */
+
+.my-plans {
+
+    padding-top: 130px;
+
+}
+
+.section-topic {
+
+    text-align: center;
+}
+
+.plan-title {
+
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 35px;
+    color: #151414;
+    padding-top: 8px;
+}
+
+.plan-desc {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 29px;
+    color: #737272;
+}
+
+.plan1, .plan2, .plan3{
+
+    padding-right: 130px;
+}
+
+.plan-img{
+
+    height: 65px ;
+    width: 65px;
+}
+
+.section-content {
+
+    padding-top: 50px;
+    display: flex;
+    justify-content: center;
+
 }
