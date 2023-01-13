@@ -288,6 +288,8 @@
     height: 55px;
     background-color: #151414;
     border: 1px solid white;
+    padding-left: 20px;
+    color:#F8F8F8
 }
 
 .btn-sub{
