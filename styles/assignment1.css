@@ -222,7 +222,7 @@
 
 .call-now {
 
-    background-image: linear-gradient(to right, #008905 0%, rgba(51, 241, 34, 0) 100%), url('./images/watch.png');
+    background-image: linear-gradient(to right, #008905 0%, rgba(51, 241, 34, 0) 100%), url('../images/watch.png');
 
     background-repeat: no-repeat;
     background-size: contain;
