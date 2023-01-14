@@ -5,6 +5,35 @@
 }
 
 
+
+/* Extra section */
+
+.menu-bar{
+
+    position: absolute;
+    left: 0px;
+    right: 0px;
+    display: flex;
+    background-color: rgb(141, 139, 139);
+    color: white;
+    background-image: linear-gradient(45deg, rgb(42, 128, 181) 40%, rgb(255, 255, 255));
+    
+}
+
+.options{
+
+    padding: 20px 40px;
+      
+}
+
+.options:hover{
+
+    color: #ffffff;
+    background-image: linear-gradient(45deg, rgb(237, 138, 24) 65%, rgb(255, 255, 255));
+
+    
+}
+
 /* First section> banner style */
 
 .banner-img {
@@ -52,7 +81,7 @@
     border: 0;
     position: absolute;
     right: 60px;
-    top: 490px;
+    top: 485px;
     margin-right: 100px;
 
 }
